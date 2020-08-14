@@ -9,6 +9,7 @@ import random
 # I HAVE IMPLEMENTED THE UNDIRECTED VERSION (https://github.com/rentzi/netRewireAnalyze ). THE CORRESPONDING PAPER IS IN
 # Newman, M. E. (2006). Modularity and community structure in networks. Proceedings of the national academy of sciences, 103(23), 8577-8582.
 
+#Note that connections are represented in nXn adjacency matrices A, where Aij is the connection from j to i, i.e. j->i
 
 # MAKEMODULARITYMATRIX takes the adjacency matrix and returns the modularity matrix (Bij = Aij - (din(i)*dout(j))/(m)) that will be used for finding communities within the graph
 # INPUT:

@@ -6,6 +6,8 @@ Leicht, Elizabeth A., and Mark EJ Newman. "Community structure in directed netwo
 I have also implemented the undirected version in ( https://github.com/rentzi/netRewireAnalyze ). The paper for this is the following:
 Newman, M. E. (2006). Modularity and community structure in networks. Proceedings of the national academy of sciences, 103(23), 8577-8582.
 
+Note that connections are represented in nXn adjacency matrices A, where Aij is the connection from j to i, i.e. j->i
+
 Prerequisites
 -------------
 
