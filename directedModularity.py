@@ -49,7 +49,7 @@ def makeModularityMatrixFromPartition(B, partitionInd):
     Bpart = Btemp[np.ix_(partitionInd, partitionInd)]
 
     for i in np.arange(Bpart.shape[0]):
-        Bpart[i, i] -= (0.5 * np.sum(Bpart[i, :]) + 0.5 * np.sum(Bpart[i, :]))
+        Bpart[i, i] -= (0.5 * np.sum(Bpart[i, :]) + 0.5 * np.sum(Bpart[:, i]))
 
     return Bpart
 
